@@ -33,4 +33,7 @@ public class Wolf implements Animal {
 
     }
 
+    public String getStatisticsAnimal() {
+        return "Name: Wolf "  + " Health: " + this.getHealth() + " AttackDamage: " + this.attackDamage();
+    }
 }

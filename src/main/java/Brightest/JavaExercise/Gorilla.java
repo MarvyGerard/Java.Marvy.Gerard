@@ -31,6 +31,13 @@ public class Gorilla implements Animal {
         this.health = health;
         this.sound = sound;
 
+
+
     }
+
+    public String getStatisticsAnimal() {
+        return "Name: Gorilla " + " Health: " + this.getHealth() + " AttackDamage: " + this.attackDamage();
+    }
+
 
 }

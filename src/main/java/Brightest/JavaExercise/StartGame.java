@@ -83,8 +83,8 @@ public class StartGame {
 
 				System.out.println();
 				System.out.println("Player statistics: " + player.getStatistics());
-				// TODO 7. Get and print the statistics form the animal -
-				// System.out.println("Animal statistics: ");
+				// TODO 7. Get and print the statistics form the animal -M
+				System.out.println("Animal statistics: " + nextAnimal.getStatisticsAnimal());
 			}
 
 			// TODO 8. If the animal is defeated, let the player choose if he want to add

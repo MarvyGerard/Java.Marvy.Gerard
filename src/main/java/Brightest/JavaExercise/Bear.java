@@ -33,4 +33,7 @@ public class Bear implements Animal {
 
 	}
 
+	public String getStatisticsAnimal() {
+		return "Name: Bear " + " Health: " + this.getHealth() + " AttackDamage: " + this.attackDamage();
+	}
 }

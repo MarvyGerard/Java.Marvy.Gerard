@@ -11,4 +11,10 @@ public interface Animal {
 	public int getHealth();
 	public String animalSound();
 
+
+	public String getStatisticsAnimal();
+
+
 }
+
+

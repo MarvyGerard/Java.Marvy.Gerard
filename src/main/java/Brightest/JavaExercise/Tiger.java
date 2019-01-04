@@ -33,4 +33,8 @@ public class Tiger implements Animal {
 
     }
 
+    public String getStatisticsAnimal() {
+        return "Name: Tiger " + " Health: " + this.getHealth() + " AttackDamage: " + this.attackDamage();
+    }
+
 }

@@ -33,4 +33,7 @@ public class Hyenas implements Animal {
 
     }
 
+    public String getStatisticsAnimal() {
+        return "Name: Hyenas " + " Health: " + this.getHealth() + " AttackDamage: " + this.attackDamage();
+    }
 }
