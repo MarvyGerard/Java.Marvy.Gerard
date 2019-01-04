@@ -28,6 +28,9 @@ public class StartGame {
 		}
 
 		// Enter weapon of choice
+		System.out.println(playerName + " Choose your weapon: axe,sword or mace");
+		ConsoleRead cons1 = new ConsoleRead();
+		weapon = cons1.scanString();
 		// TODO 1. Let the player enter a weapon and print this weapon in the players
 		// statistics
 

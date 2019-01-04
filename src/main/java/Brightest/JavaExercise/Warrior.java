@@ -6,13 +6,15 @@ public class Warrior {
 	private int attackDamage = 15;
 	private String name;
 
+
 	public Warrior(String weaponChoice, int attackOrDefenseChoice, String name) {
 		if (attackOrDefenseChoice == 1) {
 			this.setAttackDamage(this.getAttackDamage() + 10);
 		}
 
 		if (attackOrDefenseChoice == 2) {
-			// TODO 2. We will add 50 health points if the player has chosen for the defense
+			this.setHealth(this.getHealth() + 50);
+			// TODO 2. We will add 50 health points if the player has chosen for the defense = DONE
 			// choice
 		}
 		this.setName(name);
@@ -42,6 +44,12 @@ public class Warrior {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+
+
+	//public String getweapon() {
+	//	this.weapon = weapon;
+	//}
 
 	public String getStatistics() {
 		return "Name: " + this.getName() + " Health: " + this.getHealth() + " AttackDamage: " + this.getAttackDamage();
