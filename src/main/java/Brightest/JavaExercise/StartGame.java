@@ -44,6 +44,7 @@ public class StartGame {
 		List<Animal> animals = new ArrayList<Animal>();
 		animals.add(new Bear("roar"));
 		animals.add(new Bear(20, 100, "growl"));
+		animals.add(new Wolf(40,50, "Howl"));
 		// TODO 3. Add a wolf to the list with health 50 and attack damage 40
 		// TODO 4. Add a Hyenas with health 80 and damage 25 and as sound a 'laugh'
 		// TODO 5. Add an animal of your choice with standard animal health and standard
