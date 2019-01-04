@@ -48,9 +48,11 @@ public class StartGame {
 		// TODO 3. Add a wolf to the list with health 50 and attack damage 40 = DONE
 		animals.add(new Hyenas(80, 25, "laugh"));
 		// TODO 4. Add a Hyenas with health 80 and damage 25 and as sound a 'laugh' = DONE
-		// TODO 5. Add an animal of your choice with standard animal health and standard
+		animals.add(new Tiger(20, 100, "Bite"));
+		// TODO 5. Add an animal of your choice with standard animal health and standard = DONE
 		// damage and a sound you can choose freely
-		// TODO 6. Add your own animal
+		animals.add(new Gorilla(55, 120, "Slap"));
+		// TODO 6. Add your own animal = DONE
 
 		// Shuffle the list randomly
 		Collections.shuffle(animals);
